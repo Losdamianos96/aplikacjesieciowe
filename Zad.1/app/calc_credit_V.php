@@ -7,7 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prosty kalkulator</title>
+    <meta name="author" content="Damian Krawczyk">
+    <title>Prosty kalkulator</title>
 </head>
 <body>
 <form action="<?php print(_APP_URL);?>/apps/calc_credit.php" method="post">
@@ -28,7 +29,6 @@
                     foreach ($errorMessages as $key => $msg) {
                         echo '<li>'.$msg.'</li>';
                     }
-
                     echo '</ol>';
                 }
             }
